@@ -58,11 +58,11 @@ abstract contract ERC20Taxation is ERC20DexLink {
 
     bool public autoLiquidityEnabled;
     bool public autoSupportEnabled;
-    uint256 public autoSupportPercent = 30_000;
+    uint256 public autoSupportPercent = 60_000;
     address[] public autoSupportWallets;
 
-    uint256 public taxationBuyFeePercent = 6_000;
-    uint256 public taxationSellFeePercent = 6_000;
+    uint256 public taxationBuyFeePercent = 5_000;
+    uint256 public taxationSellFeePercent = 5_000;
     uint256 public taxationSwapPercent = 100;
     uint256 public taxationAllottedPercentBeforeSwap = 100;
 
